@@ -34,7 +34,7 @@ To address the limitations of triplet-loss-based training, a hybrid approach com
 
 ### Results
 
-##z# **Imagenet-1k**
+#### **Imagenet-1k**
 Results using EfficientNet-B7 for classification and CLIP embeddings for similarity:
 
 ![Result 1](output/in1keffb7/1.png)
