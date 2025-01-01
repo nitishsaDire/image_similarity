@@ -1,6 +1,6 @@
 ### Image Similarity Model Development
 
-This project focuses on building a robust image similarity model capable of handling diverse objects across a wide range of categories. Below is a summary of the development process and key approaches explored:
+This project focuses on building a robust image similarity model capable of handling diverse objects across a wide range of categories. Code walkthrough is avilable at https://www.loom.com/share/1b6e91bae06b49f48ef919dc93e5a44f?sid=dc53c024-72fa-48d6-b59a-c66d2b1b4816. Below is a summary of the development process and key approaches explored:
 
 ---
 
