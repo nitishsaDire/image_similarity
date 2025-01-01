@@ -1,6 +1,8 @@
 import numpy as np
 
-
+'''
+Have taken this code from a kaggle blog
+'''
 def precision_at_k(y_true, y_pred, k=12):
     """ Computes Precision at k for one sample
     

@@ -1,6 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+'''
+code from https://towardsdatascience.com/triplet-loss-advanced-intro-49a07b7d8905
+'''
 
 use_cuda = torch.cuda.is_available()  # check if GPU exists
 device = "cuda" if use_cuda else "cpu"  # use CPU or GPU
