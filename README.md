@@ -9,7 +9,7 @@ This project focuses on building a robust image similarity model capable of hand
 - **Dataset**: Started with MNIST, then moved to CIFAR-10 and CIFAR-100.
 - **Model**: Pretrained EfficientNet-B4 for feature extraction.
 - **Loss Function**: Triplet loss.
-- **Evaluation**: Used `mAP@k` (mean Average Precision at k) for k=1, 3, 5 on the validation set.
+- **Evaluation**: Used `mAP@k` (mean Average Precision at k) for k=1, 3, 5 on the validation set. Please check sheet at https://docs.google.com/spreadsheets/d/1dXESTKoIO415QRwjWKafGKkv258fKL6DIV1IEONEKxg/edit?usp=sharing
 - **Observations**:
   - Achieved satisfactory results on MNIST and CIFAR-10.
   - Poor performance on CIFAR-100 highlighted the need for extensive experimentation with models, loss functions, and hyperparameters.
@@ -22,7 +22,7 @@ To address the limitations of triplet-loss-based training, a hybrid approach com
 #### **Steps**:
 1. **Classification**: Classify the input image using a pretrained EfficientNet model.
    - ImageNet-1k: EfficientNet-B7 (1,000 classes).
-   - ImageNet-22k: A model trained on ImageNet-22k (22,000 classes in training, 12,000 in validation).
+   - ImageNet-22k: eva-02, trained on ImageNet-22k (22,000 classes in training, 12,000 in validation).
 2. **Embedding Proximity**:
    - Generate CLIP embeddings for the validation images belonging to the predicted class.
    - Compute the distance between the test image embedding and the validation embeddings.
@@ -31,6 +31,29 @@ To address the limitations of triplet-loss-based training, a hybrid approach com
 #### **Results**:
 - ImageNet-22k outperformed ImageNet-1k due to its broader range of object categories.
 - Larger datasets demonstrated significant improvements in similarity predictions.
+
+### Results
+
+##z# **Imagenet-1k**
+Results using EfficientNet-B7 for classification and CLIP embeddings for similarity:
+
+![Result 1](output/in1keffb7/1.png)
+![Result 2](output/in1keffb7/2.png)
+![Result 3](output/in1keffb7/3.png)
+![Result 4](output/in1keffb7/4.png)
+![Result 5](output/in1keffb7/5.png)
+
+---
+
+#### **Imagenet-22k**
+Results using a model trained on Imagenet-22k for classification and CLIP embeddings for similarity:
+
+![Result 1](output/in22keva/1.png)
+![Result 2](output/in22keva/2.png)
+![Result 3](output/in22keva/3.png)
+![Result 4](output/in22keva/4.png)
+![Result 5](output/in22keva/5.png)
+![Result 6](output/in22keva/6.png)
 
 ---
 
