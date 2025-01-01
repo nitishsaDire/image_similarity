@@ -37,24 +37,26 @@ To address the limitations of triplet-loss-based training, a hybrid approach com
 #### **Imagenet-1k**
 Results using EfficientNet-B7 for classification and CLIP embeddings for similarity:
 
-![Result 1](output/in1keffb7/1.png)
-![Result 2](output/in1keffb7/2.png)
-![Result 3](output/in1keffb7/3.png)
-![Result 4](output/in1keffb7/4.png)
-![Result 5](output/in1keffb7/5.png)
-
+<div style="overflow-x: scroll; white-space: nowrap; width: 100%;">
+  <img src="output/in1keffb7/1.png" style="width: 100%; display: inline-block;" alt="Result 1">
+  <img src="output/in1keffb7/2.png" style="width: 100%; display: inline-block;" alt="Result 2">
+  <img src="output/in1keffb7/3.png" style="width: 100%; display: inline-block;" alt="Result 3">
+  <img src="output/in1keffb7/4.png" style="width: 100%; display: inline-block;" alt="Result 4">
+  <img src="output/in1keffb7/5.png" style="width: 100%; display: inline-block;" alt="Result 5">
+</div>
 ---
 
 #### **Imagenet-22k**
 Results using a model trained on Imagenet-22k for classification and CLIP embeddings for similarity:
 
-![Result 1](output/in22keva/1.png)
-![Result 2](output/in22keva/2.png)
-![Result 3](output/in22keva/3.png)
-![Result 4](output/in22keva/4.png)
-![Result 5](output/in22keva/5.png)
-![Result 6](output/in22keva/6.png)
-
+<div style="overflow-x: scroll; white-space: nowrap; width: 100%;">
+  <img src="output/in22keva/1.png" style="width: 100%; display: inline-block;" alt="Result 1">
+  <img src="output/in22keva/2.png" style="width: 100%; display: inline-block;" alt="Result 2">
+  <img src="output/in22keva/3.png" style="width: 100%; display: inline-block;" alt="Result 3">
+  <img src="output/in22keva/4.png" style="width: 100%; display: inline-block;" alt="Result 4">
+  <img src="output/in22keva/5.png" style="width: 100%; display: inline-block;" alt="Result 5">
+  <img src="output/in22keva/6.png" style="width: 100%; display: inline-block;" alt="Result 6">
+</div>
 ---
 
 ### **Experimentation with Object Detection**
