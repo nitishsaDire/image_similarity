@@ -72,6 +72,7 @@ Results using a model trained on Imagenet-22k for classification and CLIP embedd
 - **Reason**: A diverse dataset is essential for general-purpose image similarity tasks. 
 - ImageNet datasets offer broad object coverage, making them suitable for this use case.
 - Other datasets like Oxford5k and Paris5k are limited to specific categories (e.g., buildings), which restricts their applicability.
+- The training dataset of imagenet 1k and 22k is huge, so used validation set for demonstration purpose. Results could be much better if use training + validation set.
 
 ---
 
